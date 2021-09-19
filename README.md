@@ -1,9 +1,8 @@
-# deploy
-
-sam package --s3-bucket s3-simple-lambda --output-template-file out.yaml
-sam deploy --template-file out.yaml --capabilities CAPABILITY_IAM --stack-name MyStack2
 
 
+### glue
+
+aws glue create-registry --registry-name registryKafka --description for kafka schema
 
 
 # hello

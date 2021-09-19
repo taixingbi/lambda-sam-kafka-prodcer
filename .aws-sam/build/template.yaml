@@ -1,8 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: 'hello
-
-  Sample SAM Template for hello
+Description: 'kafak producer
 
   '
 Globals:
@@ -25,11 +23,6 @@ Resources:
           Properties:
             Path: /hello
             Method: get
-      VpcConfig:
-        SecurityGroupIds:
-        - sg-8bd7fefd
-        SubnetIds:
-        - subnet-a10e28ed
 Outputs:
   HelloWorldApi:
     Description: API Gateway endpoint URL for Prod stage for Hello World function

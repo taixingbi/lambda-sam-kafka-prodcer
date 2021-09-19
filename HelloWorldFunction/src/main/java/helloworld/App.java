@@ -31,6 +31,6 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
                 .withHeaders(headers);
         return response
                 .withStatusCode(200)
-                .withBody("saks, ok");
+                .withBody("hi saks, kafka producer ok");
     }
 }
